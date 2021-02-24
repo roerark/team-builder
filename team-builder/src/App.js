@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useState} from "react";
 import Form from "./components/Form"
@@ -11,7 +10,6 @@ function App() {
     role: "",
   }
 
-  const [members, setMembers] = useState([])
   const [formValue, setFormValue] = useState(initialFormValues)
 
   const updateForm = (inputName, inputValue) => {
